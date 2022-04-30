@@ -59,24 +59,20 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 
-        Language<br>
-        Framworks<br>
-        Databases / ORM<br>
-        DevOps<br>
+        title: Language
         description: | # this will include new lines to allow paragraphs
           - Java
-#       - layout: left
-#         title: Framworks
-#         description: |
+      - layout: left
+        title: Framworks
+        description: |
           - Spring Boot, Spring MVC
-#       - layout: left
-#         title: Databases / ORM
-#         description: |
+      - layout: left
+        title: Databases / ORM
+        description: |
           - MariaDB, JPA
-#       - layout: left
-#         title: DevOps
-#         description: |
+      - layout: left
+        title: DevOps
+        description: |
           - Git
   - title: Project
     layout: list
