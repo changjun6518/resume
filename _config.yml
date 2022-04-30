@@ -52,8 +52,8 @@ github_username:  changjun6518
 # about_title: About Me (Use this to override about section title)
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  - <mark>Spring Boot</mark> <mark>MariaDB</mark> <mark>JPA</mark> <mark>Git</mark> 을 사용하여 웹 어플리케이션을 개발하고 배포한 경험이 있습니다. <br>
-  - <mark>객체지향프로그래밍</mark> <mark>클린코드</mark> <mark>TDD</mark> 에 대해 필요성을 느끼고 학습한 경험이 있습니다.
+  <mark>Spring Boot</mark> <mark>MariaDB</mark> <mark>JPA</mark> <mark>Git</mark> 을 사용하여 웹 어플리케이션을 개발하고 배포한 경험이 있습니다. <br>
+  <mark>객체지향프로그래밍</mark> <mark>클린코드</mark> <mark>TDD</mark> 에 대해 필요성을 느끼고 학습한 경험이 있습니다.
 content:
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
