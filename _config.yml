@@ -102,7 +102,7 @@ content:
   - title: Temp
     layout: text
     content:
-      - layout: left
+      - layout: list
         title: 도전
         description: |
           
