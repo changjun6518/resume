@@ -87,8 +87,7 @@ content:
           - raw data를 JPA를 통해 데이터베이스에 저장
             - <b>Insert시 많은 시간 소요 문제 해결함</b> (save(), saveAll(), bulk Insert)
           - spring boot로 서버 구축 및 CRUD API 개발
-          - Azure 가상머신과 Jenkins, Github를 통해 CI/CD 환경 구축 및 배포
-          
+          - Azure 가상머신과 Jenkins, Github를 통해 CI/CD 환경 구축 및 배포 
   - title: Education
     layout: list
     content:
@@ -99,19 +98,23 @@ content:
 #         quote: >
 #           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          <b>자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크</b> 등 computer science 에 대해 학습하였습니다.
-          
-  - title: self-introduction
+          <b>자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크</b> 등 computer science 에 대해 학습하였습니다. 
+  - title: 시발
     layout: list
     content:
       - layout: left
-        title: 도전과 성장
-        description: |
-        <u>새로운 지식과 기술을 습득할때 뿌듯함을 느낍니다.</u>
-        처음에는 어렵고 이해하기 어렵지만 계속해서 반복적으로 학습하고 사용해보며 익숙해질때 성장하고 있음을 느낍니다.
-        매일 성장하는 것을 목표로 개발하고 학습하고 있습니다. 
-        <u>책을 통한 지식 습득이나 프로젝트를 진행하며 기술을 적용해보며 학습하고 있습니다.</u>
+        title: 왜안되는건데
+#   - title: Self-introduction
+#     layout: list
+#     content:
 #       - layout: left
+#         title: 도전과 성장
+#         description: |
+#         <u>새로운 지식과 기술을 습득할때 뿌듯함을 느낍니다.</u>
+#         처음에는 어렵고 이해하기 어렵지만 계속해서 반복적으로 학습하고 사용해보며 익숙해질때 성장하고 있음을 느낍니다.
+#         매일 성장하는 것을 목표로 개발하고 학습하고 있습니다. 
+#         <u>책을 통한 지식 습득이나 프로젝트를 진행하며 기술을 적용해보며 학습하고 있습니다.</u>
+# #       - layout: left
 #         title: 유지보수와 협업에 좋은 코드
 #         description: |
 #         프로젝트를 진행하며 유지보수와 협업의 필요성을 느끼고 그에 따른 좋은 코드는 무엇인지 고민해보았습니다.
