@@ -52,8 +52,8 @@ github_username:  changjun6518
 # about_title: About Me (Use this to override about section title)
 # about_profile_image: Directory of profile image (eg. images/profile.jpg)
 about_content: | # this will include new lines to allow paragraphs
-  <mark>Spring Boot</mark> <mark>MariaDB</mark> <mark>JPA</mark> <mark>Git</mark> 을 사용하여 웹 어플리케이션을 개발하고 배포한 경험이 있습니다. <br>
-  <mark>객체지향프로그래밍</mark> <mark>클린코드</mark> <mark>TDD</mark> 에 대해 필요성을 느끼고 학습하고 있습니다.
+  - <mark>Spring Boot</mark> <mark>MariaDB</mark> <mark>JPA</mark> <mark>Git</mark> 을 사용하여 웹 어플리케이션을 개발하고 배포한 경험이 있습니다. <br>
+  - <mark>객체지향프로그래밍</mark> <mark>클린코드</mark> <mark>TDD</mark> 에 대해 필요성을 느끼고 학습한 경험이 있습니다.
 content:
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
@@ -84,8 +84,8 @@ content:
         quote: >
           raw data를 parsing하고 데이터베이스에 저장하고 저장된 데이터를 연구원들에게 제공하기 위해 관련 API를 개발하고 배포하였습니다.
         description: | # this will include new lines to allow paragraphs
-          - raw data 데이터베이스에 저장
-            - Insert시 많은 시간 소요 문제 해결 (save(), saveAll(), bulk Insert, JDBC)
+          - raw data를 JPA를 통해 데이터베이스에 저장
+            - <b>Insert시 많은 시간 소요 문제 해결함</b> (save(), saveAll(), bulk Insert)
           - spring boot로 서버 구축 및 CRUD API 개발
           - Azure 가상머신과 Jenkins, Github를 통해 CI/CD 환경 구축 및 배포
           
