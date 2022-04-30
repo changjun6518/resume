@@ -59,20 +59,24 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Language
+        title: |
+        Language<br>
+        Framworks<br>
+        Databases / ORM<br>
+        DevOps<br>
         description: | # this will include new lines to allow paragraphs
           - Java
-      - layout: left
-        title: Framworks
-        description: |
+#       - layout: left
+#         title: Framworks
+#         description: |
           - Spring Boot, Spring MVC
-      - layout: left
-        title: Databases / ORM
-        description: |
+#       - layout: left
+#         title: Databases / ORM
+#         description: |
           - MariaDB, JPA
-      - layout: left
-        title: DevOps
-        description: |
+#       - layout: left
+#         title: DevOps
+#         description: |
           - Git
   - title: Project
     layout: list
@@ -99,7 +103,7 @@ content:
 #         quote: >
 #           Short institution or course description (optional)
         description: | # this will include new lines to allow paragraphs
-          자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크 등 computer science 에 대해 학습하였습니다.
+          <b>자료구조, 알고리즘, 운영체제, 데이터베이스, 네트워크</b> 등 computer science 에 대해 학습하였습니다.
   
 # Footer
 footer_show_references: false
