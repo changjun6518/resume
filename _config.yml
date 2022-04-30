@@ -16,7 +16,7 @@ phone: 010-4008-5891
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: jekyllrb
@@ -74,18 +74,21 @@ content:
         title: DevOps
         description: |
           - Git
-  - title: Experience
+  - title: Project
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: left
+        title: 홍익대학교 딥러닝 연구실 PEM
+        sub_title: 데이터 관련 API 개발 및 배포
+        caption: 2021.07 ~ 2022.02
         quote: >
-          Short description of the company (optional)
+          raw data를 parsing하고 데이터베이스에 저장하고 저장된 데이터를 연구원들에게 제공하기 위해 관련 API를 개발하고 배포하였습니다.
         description: | # this will include new lines to allow paragraphs
-          Description of role
+          - raw data 데이터베이스에 저장
+            - Insert시 많은 시간 소요 문제 해결 (save(), saveAll(), bulk Insert, JDBC)
+          - spring boot로 서버 구축 및 CRUD API 개발
+          - Azure 가상머신과 Jenkins, Github를 통해 CI/CD 환경 구축 및 배포
+          
   - title: Education
     layout: list
     content:
